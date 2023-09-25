@@ -1,0 +1,10 @@
+#app {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+}
+
+#app > div {
+  border: 1px solid red;
+}
